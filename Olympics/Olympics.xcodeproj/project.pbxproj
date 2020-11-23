@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6811AE58252E9070004891F9 /* TeamCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811AE57252E906F004891F9 /* TeamCreateView.swift */; };
+		6811AE60253CC13D004891F9 /* EventInProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811AE5F253CC13C004891F9 /* EventInProgressView.swift */; };
+		6811AE65253CC485004891F9 /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811AE64253CC485004891F9 /* StopWatchManager.swift */; };
+		6811AE732542BE0E004891F9 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811AE722542BE0E004891F9 /* Cardify.swift */; };
+		68249610255B221D00062837 /* ConfettiView in Frameworks */ = {isa = PBXBuildFile; productRef = 6824960F255B221D00062837 /* ConfettiView */; };
+		684B24A4252A4CE00056ADFA /* EventsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B24A3252A4CE00056ADFA /* EventsListView.swift */; };
+		684B24A9252A50680056ADFA /* OlympicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B24A8252A50680056ADFA /* OlympicModel.swift */; };
+		684B24AE252A541A0056ADFA /* OlympicGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B24AD252A54190056ADFA /* OlympicGame.swift */; };
+		684B24FD252ACC430056ADFA /* Array+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B24FC252ACC430056ADFA /* Array+Event.swift */; };
+		689709922563A1F60096799E /* applause10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 689709912563A1F60096799E /* applause10.mp3 */; };
+		689709972563A2170096799E /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689709962563A2170096799E /* PlaySound.swift */; };
+		68B249EB2527F7C8007AE6D8 /* OlympicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B249EA2527F7C8007AE6D8 /* OlympicsApp.swift */; };
+		68B249ED2527F7C8007AE6D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B249EC2527F7C8007AE6D8 /* ContentView.swift */; };
+		68B249EF2527F7CA007AE6D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B249EE2527F7CA007AE6D8 /* Assets.xcassets */; };
+		68B249F22527F7CA007AE6D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B249F12527F7CA007AE6D8 /* Preview Assets.xcassets */; };
+		68B249FD2527F7CA007AE6D8 /* OlympicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B249FC2527F7CA007AE6D8 /* OlympicsTests.swift */; };
+		68B24A082527F7CA007AE6D8 /* OlympicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B24A072527F7CA007AE6D8 /* OlympicsUITests.swift */; };
+		68DFE9162546861600ACF331 /* CounterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFE9152546861600ACF331 /* CounterManager.swift */; };
+		68DFE91E254A279A00ACF331 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFE91D254A279900ACF331 /* LandingPageView.swift */; };
+		68DFE929254BAF4100ACF331 /* EndScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFE928254BAF4100ACF331 /* EndScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68B249F92527F7CA007AE6D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B249DF2527F7C8007AE6D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B249E62527F7C8007AE6D8;
+			remoteInfo = Olympics;
+		};
+		68B24A042527F7CA007AE6D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B249DF2527F7C8007AE6D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B249E62527F7C8007AE6D8;
+			remoteInfo = Olympics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6811AE57252E906F004891F9 /* TeamCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCreateView.swift; sourceTree = "<group>"; };
+		6811AE5F253CC13C004891F9 /* EventInProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInProgressView.swift; sourceTree = "<group>"; };
+		6811AE64253CC485004891F9 /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
+		6811AE722542BE0E004891F9 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		684B24A3252A4CE00056ADFA /* EventsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListView.swift; sourceTree = "<group>"; };
+		684B24A8252A50680056ADFA /* OlympicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlympicModel.swift; sourceTree = "<group>"; };
+		684B24AD252A54190056ADFA /* OlympicGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlympicGame.swift; sourceTree = "<group>"; };
+		684B24FC252ACC430056ADFA /* Array+Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Event.swift"; sourceTree = "<group>"; };
+		689709912563A1F60096799E /* applause10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = applause10.mp3; sourceTree = "<group>"; };
+		689709962563A2170096799E /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		68B249E72527F7C8007AE6D8 /* Olympics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Olympics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B249EA2527F7C8007AE6D8 /* OlympicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlympicsApp.swift; sourceTree = "<group>"; };
+		68B249EC2527F7C8007AE6D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68B249EE2527F7CA007AE6D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68B249F12527F7CA007AE6D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68B249F32527F7CA007AE6D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B249F82527F7CA007AE6D8 /* OlympicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlympicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B249FC2527F7CA007AE6D8 /* OlympicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlympicsTests.swift; sourceTree = "<group>"; };
+		68B249FE2527F7CA007AE6D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B24A032527F7CA007AE6D8 /* OlympicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlympicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B24A072527F7CA007AE6D8 /* OlympicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlympicsUITests.swift; sourceTree = "<group>"; };
+		68B24A092527F7CA007AE6D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DFE9152546861600ACF331 /* CounterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterManager.swift; sourceTree = "<group>"; };
+		68DFE91D254A279900ACF331 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		68DFE928254BAF4100ACF331 /* EndScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B249E42527F7C8007AE6D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68249610255B221D00062837 /* ConfettiView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B249F52527F7CA007AE6D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B24A002527F7CA007AE6D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68B249DE2527F7C8007AE6D8 = {
+			isa = PBXGroup;
+			children = (
+				68B249E92527F7C8007AE6D8 /* Olympics */,
+				68B249FB2527F7CA007AE6D8 /* OlympicsTests */,
+				68B24A062527F7CA007AE6D8 /* OlympicsUITests */,
+				68B249E82527F7C8007AE6D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B249E82527F7C8007AE6D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B249E72527F7C8007AE6D8 /* Olympics.app */,
+				68B249F82527F7CA007AE6D8 /* OlympicsTests.xctest */,
+				68B24A032527F7CA007AE6D8 /* OlympicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B249E92527F7C8007AE6D8 /* Olympics */ = {
+			isa = PBXGroup;
+			children = (
+				68B249EA2527F7C8007AE6D8 /* OlympicsApp.swift */,
+				68B249EC2527F7C8007AE6D8 /* ContentView.swift */,
+				684B24A8252A50680056ADFA /* OlympicModel.swift */,
+				684B24AD252A54190056ADFA /* OlympicGame.swift */,
+				68DFE91D254A279900ACF331 /* LandingPageView.swift */,
+				6811AE57252E906F004891F9 /* TeamCreateView.swift */,
+				684B24A3252A4CE00056ADFA /* EventsListView.swift */,
+				6811AE5F253CC13C004891F9 /* EventInProgressView.swift */,
+				68DFE928254BAF4100ACF331 /* EndScreenView.swift */,
+				6811AE64253CC485004891F9 /* StopWatchManager.swift */,
+				68DFE9152546861600ACF331 /* CounterManager.swift */,
+				684B24FC252ACC430056ADFA /* Array+Event.swift */,
+				6811AE722542BE0E004891F9 /* Cardify.swift */,
+				68B249EE2527F7CA007AE6D8 /* Assets.xcassets */,
+				689709912563A1F60096799E /* applause10.mp3 */,
+				689709962563A2170096799E /* PlaySound.swift */,
+				68B249F32527F7CA007AE6D8 /* Info.plist */,
+				68B249F02527F7CA007AE6D8 /* Preview Content */,
+			);
+			path = Olympics;
+			sourceTree = "<group>";
+		};
+		68B249F02527F7CA007AE6D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68B249F12527F7CA007AE6D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68B249FB2527F7CA007AE6D8 /* OlympicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				68B249FC2527F7CA007AE6D8 /* OlympicsTests.swift */,
+				68B249FE2527F7CA007AE6D8 /* Info.plist */,
+			);
+			path = OlympicsTests;
+			sourceTree = "<group>";
+		};
+		68B24A062527F7CA007AE6D8 /* OlympicsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68B24A072527F7CA007AE6D8 /* OlympicsUITests.swift */,
+				68B24A092527F7CA007AE6D8 /* Info.plist */,
+			);
+			path = OlympicsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B249E62527F7C8007AE6D8 /* Olympics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B24A0C2527F7CA007AE6D8 /* Build configuration list for PBXNativeTarget "Olympics" */;
+			buildPhases = (
+				68B249E32527F7C8007AE6D8 /* Sources */,
+				68B249E42527F7C8007AE6D8 /* Frameworks */,
+				68B249E52527F7C8007AE6D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Olympics;
+			packageProductDependencies = (
+				6824960F255B221D00062837 /* ConfettiView */,
+			);
+			productName = Olympics;
+			productReference = 68B249E72527F7C8007AE6D8 /* Olympics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68B249F72527F7CA007AE6D8 /* OlympicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B24A0F2527F7CA007AE6D8 /* Build configuration list for PBXNativeTarget "OlympicsTests" */;
+			buildPhases = (
+				68B249F42527F7CA007AE6D8 /* Sources */,
+				68B249F52527F7CA007AE6D8 /* Frameworks */,
+				68B249F62527F7CA007AE6D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B249FA2527F7CA007AE6D8 /* PBXTargetDependency */,
+			);
+			name = OlympicsTests;
+			productName = OlympicsTests;
+			productReference = 68B249F82527F7CA007AE6D8 /* OlympicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68B24A022527F7CA007AE6D8 /* OlympicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B24A122527F7CA007AE6D8 /* Build configuration list for PBXNativeTarget "OlympicsUITests" */;
+			buildPhases = (
+				68B249FF2527F7CA007AE6D8 /* Sources */,
+				68B24A002527F7CA007AE6D8 /* Frameworks */,
+				68B24A012527F7CA007AE6D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B24A052527F7CA007AE6D8 /* PBXTargetDependency */,
+			);
+			name = OlympicsUITests;
+			productName = OlympicsUITests;
+			productReference = 68B24A032527F7CA007AE6D8 /* OlympicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B249DF2527F7C8007AE6D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					68B249E62527F7C8007AE6D8 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					68B249F72527F7CA007AE6D8 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 68B249E62527F7C8007AE6D8;
+					};
+					68B24A022527F7CA007AE6D8 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 68B249E62527F7C8007AE6D8;
+					};
+				};
+			};
+			buildConfigurationList = 68B249E22527F7C8007AE6D8 /* Build configuration list for PBXProject "Olympics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68B249DE2527F7C8007AE6D8;
+			packageReferences = (
+				6824960E255B221D00062837 /* XCRemoteSwiftPackageReference "ConfettiView" */,
+			);
+			productRefGroup = 68B249E82527F7C8007AE6D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B249E62527F7C8007AE6D8 /* Olympics */,
+				68B249F72527F7CA007AE6D8 /* OlympicsTests */,
+				68B24A022527F7CA007AE6D8 /* OlympicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B249E52527F7C8007AE6D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B249F22527F7CA007AE6D8 /* Preview Assets.xcassets in Resources */,
+				68B249EF2527F7CA007AE6D8 /* Assets.xcassets in Resources */,
+				689709922563A1F60096799E /* applause10.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B249F62527F7CA007AE6D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B24A012527F7CA007AE6D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B249E32527F7C8007AE6D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684B24AE252A541A0056ADFA /* OlympicGame.swift in Sources */,
+				689709972563A2170096799E /* PlaySound.swift in Sources */,
+				68DFE91E254A279A00ACF331 /* LandingPageView.swift in Sources */,
+				6811AE65253CC485004891F9 /* StopWatchManager.swift in Sources */,
+				68DFE929254BAF4100ACF331 /* EndScreenView.swift in Sources */,
+				68B249ED2527F7C8007AE6D8 /* ContentView.swift in Sources */,
+				684B24FD252ACC430056ADFA /* Array+Event.swift in Sources */,
+				684B24A4252A4CE00056ADFA /* EventsListView.swift in Sources */,
+				68DFE9162546861600ACF331 /* CounterManager.swift in Sources */,
+				6811AE58252E9070004891F9 /* TeamCreateView.swift in Sources */,
+				68B249EB2527F7C8007AE6D8 /* OlympicsApp.swift in Sources */,
+				6811AE60253CC13D004891F9 /* EventInProgressView.swift in Sources */,
+				6811AE732542BE0E004891F9 /* Cardify.swift in Sources */,
+				684B24A9252A50680056ADFA /* OlympicModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B249F42527F7CA007AE6D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B249FD2527F7CA007AE6D8 /* OlympicsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B249FF2527F7CA007AE6D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B24A082527F7CA007AE6D8 /* OlympicsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68B249FA2527F7CA007AE6D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B249E62527F7C8007AE6D8 /* Olympics */;
+			targetProxy = 68B249F92527F7CA007AE6D8 /* PBXContainerItemProxy */;
+		};
+		68B24A052527F7CA007AE6D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B249E62527F7C8007AE6D8 /* Olympics */;
+			targetProxy = 68B24A042527F7CA007AE6D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		68B24A0A2527F7CA007AE6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68B24A0B2527F7CA007AE6D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68B24A0D2527F7CA007AE6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Olympics/Preview Content\"";
+				DEVELOPMENT_TEAM = 959AA37T28;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Olympics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danieldang.Olympics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		68B24A0E2527F7CA007AE6D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Olympics/Preview Content\"";
+				DEVELOPMENT_TEAM = 959AA37T28;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Olympics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danieldang.Olympics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		68B24A102527F7CA007AE6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 959AA37T28;
+				INFOPLIST_FILE = OlympicsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danieldang.OlympicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Olympics.app/Olympics";
+			};
+			name = Debug;
+		};
+		68B24A112527F7CA007AE6D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 959AA37T28;
+				INFOPLIST_FILE = OlympicsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danieldang.OlympicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Olympics.app/Olympics";
+			};
+			name = Release;
+		};
+		68B24A132527F7CA007AE6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 959AA37T28;
+				INFOPLIST_FILE = OlympicsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danieldang.OlympicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Olympics;
+			};
+			name = Debug;
+		};
+		68B24A142527F7CA007AE6D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 959AA37T28;
+				INFOPLIST_FILE = OlympicsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danieldang.OlympicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Olympics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B249E22527F7C8007AE6D8 /* Build configuration list for PBXProject "Olympics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B24A0A2527F7CA007AE6D8 /* Debug */,
+				68B24A0B2527F7CA007AE6D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B24A0C2527F7CA007AE6D8 /* Build configuration list for PBXNativeTarget "Olympics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B24A0D2527F7CA007AE6D8 /* Debug */,
+				68B24A0E2527F7CA007AE6D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B24A0F2527F7CA007AE6D8 /* Build configuration list for PBXNativeTarget "OlympicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B24A102527F7CA007AE6D8 /* Debug */,
+				68B24A112527F7CA007AE6D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B24A122527F7CA007AE6D8 /* Build configuration list for PBXNativeTarget "OlympicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B24A132527F7CA007AE6D8 /* Debug */,
+				68B24A142527F7CA007AE6D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6824960E255B221D00062837 /* XCRemoteSwiftPackageReference "ConfettiView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ziligy/ConfettiView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6824960F255B221D00062837 /* ConfettiView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6824960E255B221D00062837 /* XCRemoteSwiftPackageReference "ConfettiView" */;
+			productName = ConfettiView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 68B249DF2527F7C8007AE6D8 /* Project object */;
+}
