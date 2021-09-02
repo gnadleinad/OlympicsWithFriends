@@ -1,6 +1,6 @@
 # Olympics With Friends!
 
-! The app was removed from the Apple App Store because the International Olympic Commitee flagged it for "infringing its trademark." 
+❗️ The app was removed from the Apple App Store because the International Olympic Commitee flagged it for "infringing its trademark." ❗️
 
 This was my first iOS app that I made in my independent study during the fall semester at Whitman College. It's an app that makes it easier to do house olympic style competitions with housemates and friends during the pandemic. 
 
